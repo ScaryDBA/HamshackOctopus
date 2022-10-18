@@ -1,0 +1,15 @@
+{
+  "objects": [
+    {
+      "objectType": "foreignKey",
+      "fullName": "\"public\".\"inventory\".\"inventoryiteminventory\"",
+      "columns": [
+        "\"inventoryitemid\""
+      ],
+      "referencedTable": "\"public\".\"inventoryitem\"",
+      "referencedColumns": [
+        "\"inventoryitemid\""
+      ]
+    }
+  ]
+}

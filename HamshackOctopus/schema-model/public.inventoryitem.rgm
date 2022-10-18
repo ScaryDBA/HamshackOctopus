@@ -1,0 +1,29 @@
+{
+  "objects": [
+    {
+      "objectType": "table",
+      "fullName": "\"public\".\"inventoryitem\"",
+      "columns": [
+        {
+          "objectType": "column",
+          "fullName": "\"inventoryitemid\"",
+          "type": "int4"
+        },
+        {
+          "objectType": "column",
+          "fullName": "\"inventoryitemname\"",
+          "type": "varchar"
+        }
+      ],
+      "primaryKeys": [
+        {
+          "objectType": "primaryKey",
+          "fullName": "\"inventoryitempk\"",
+          "columns": [
+            "\"inventoryitemid\""
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "objects": [
+    {
+      "objectType": "table",
+      "fullName": "\"public\".\"sales\"",
+      "columns": [
+        {
+          "objectType": "column",
+          "fullName": "\"salesid\"",
+          "type": "int4"
+        },
+        {
+          "objectType": "column",
+          "fullName": "\"salesdate\"",
+          "type": "timestamp"
+        }
+      ],
+      "primaryKeys": [
+        {
+          "objectType": "primaryKey",
+          "fullName": "\"sales_pkey\"",
+          "columns": [
+            "\"salesid\""
+          ]
+        }
+      ]
+    }
+  ]
+}

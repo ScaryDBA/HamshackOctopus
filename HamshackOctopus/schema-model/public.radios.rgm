@@ -1,0 +1,20 @@
+{
+  "objects": [
+    {
+      "objectType": "table",
+      "fullName": "\"public\".\"radios\"",
+      "columns": [
+        {
+          "objectType": "column",
+          "fullName": "\"radioid\"",
+          "type": "int4"
+        },
+        {
+          "objectType": "column",
+          "fullName": "\"radioname\"",
+          "type": "varchar"
+        }
+      ]
+    }
+  ]
+}

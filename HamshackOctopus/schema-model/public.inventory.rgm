@@ -1,0 +1,29 @@
+{
+  "objects": [
+    {
+      "objectType": "table",
+      "fullName": "\"public\".\"inventory\"",
+      "columns": [
+        {
+          "objectType": "column",
+          "fullName": "\"inventoryid\"",
+          "type": "int4"
+        },
+        {
+          "objectType": "column",
+          "fullName": "\"inventoryitemid\"",
+          "type": "int4"
+        }
+      ],
+      "primaryKeys": [
+        {
+          "objectType": "primaryKey",
+          "fullName": "\"inventorypk\"",
+          "columns": [
+            "\"inventoryid\""
+          ]
+        }
+      ]
+    }
+  ]
+}

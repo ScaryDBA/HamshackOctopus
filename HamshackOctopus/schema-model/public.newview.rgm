@@ -1,0 +1,21 @@
+{
+  "objects": [
+    {
+      "objectType": "view",
+      "fullName": "\"public\".\"newview\"",
+      "text": "SELECT i.inventoryid,\n    ii.inventoryitemname\n   FROM (public.inventory i\n     JOIN public.inventoryitem ii ON ((i.inventoryitemid = ii.inventoryitemid)));",
+      "columns": [
+        {
+          "objectType": "column",
+          "fullName": "\"inventoryid\"",
+          "type": "int4"
+        },
+        {
+          "objectType": "column",
+          "fullName": "\"inventoryitemname\"",
+          "type": "varchar"
+        }
+      ]
+    }
+  ]
+}

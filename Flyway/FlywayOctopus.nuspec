@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>FlywayOctopus</id>
+    <version>1.0.0</version>
+    <authors>grant</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <description>Flyway octopus</description>
+    <copyright>$copyright$</copyright>
+  </metadata>
+    <files>
+      <file src="*.*"  />
+      <file src="migrations\*.*" target="migrations"  />
+    </files>
+</package>
